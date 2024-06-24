@@ -1,0 +1,501 @@
+content,label
+What is the location of the lesion region in the image?,1
+Separate the abnormality area in the image.,1
+Can you identify the abnormality in this image?,1
+Specify the exact location of the lesion site in the image.,1
+Find the lesion position in this image.,1
+Can you mark the affected area in the image?,1
+Annotate the abnormal position in the image.,1
+Indicate the range of the lesion site in the image.,1
+Draw the contour of the abnormality in the image.,1
+Can you mark the affected region in the image?,1
+Separate the tumor area in the image.,1
+Could you highlight the abnormal area in the image?,1
+Segment the abnormality area in the image.,1
+Segment the disease area in the image for me.,1
+Separate the tumor site area in the image.,1
+Identify the boundary of the abnormality in the image.,1
+Separate the lesion area in the image.,1
+Indicate the precise range of the affected area in the image.,1
+Please delineate the lesion region in the image.,1
+Identify the boundary of the diseased region in the image.,1
+Segment the diseased region in the image for me.,1
+Pinpoint the exact location of the abnormal site in the image.,1
+Can you find the lesion in this image?,1
+Specify the exact location of the lesion position in the image.,1
+Detect the lesion region in the image.,1
+Outline the lesion region in the image.,1
+Segment the abnormal position in the image for me.,1
+Mark the location of the lesion.,1
+Specify the exact location of the lesion area in the image.,1
+Outline the abnormal area in the image.,1
+Annotate the lesion position in the image.,1
+Can you find the lesion position in this image?,1
+Indicate the precise range of the abnormality in the image.,1
+Mark the affected area in this image.,1
+Where is the disease site in this image?,1
+Label the abnormal area in the image.,1
+Sketch the area of the affected region in the image for me.,1
+Outline the lesion in the image.,1
+Separate the abnormal position area in the image.,1
+Can you mark the abnormal site in the image?,1
+Can you find the affected area in this image?,1
+Would you outline the condition in the image?,1
+Specify the exact location of the lesion in the image.,1
+Separate the affected site area in the image.,1
+Would you outline the lesion in the image?,1
+Specify the exact location of the affected site in the image.,1
+Would you outline the disease site in the image?,1
+Circle the condition in the image.,1
+Identify the boundary of the lesion position in the image.,1
+Specify the exact location of the diseased region in the image.,1
+Identify the abnormal position in the image.,1
+Find the tumor in this image.,1
+Sketch the area of the affected site in the image for me.,1
+Draw the contour of the lesion area in the image.,1
+Draw the contour of the tumor area in the image.,1
+Can you mark the affected region in the image?,1
+Highlight the area of the abnormal site in the image.,1
+Detect the lesion region in the image.,1
+Outline the disease area in the image.,1
+What is the location of the affected area in the image?,1
+Circle the lesion area in the image.,1
+Pinpoint the exact location of the abnormal position in the image.,1
+Identify the lesion area in the image.,1
+Annotate the range of the disease area in the image.,1
+Segment the lesion region area in the image.,1
+Could you highlight the disease site in the image?,1
+Segment the area of the disease site in the image.,1
+Pinpoint the exact location of the lesion position in the image.,1
+Pinpoint the exact location of the abnormal site in the image.,1
+Could you highlight the abnormality in the image?,1
+Could you highlight the affected site in the image?,1
+Can you mark the lesion in the image?,1
+Find the abnormal site in this image.,1
+Mark the location of the lesion region.,1
+Separate the tumor region area in the image.,1
+Highlight the area of the lesion position in the image.,1
+Please delineate the affected site in the image.,1
+Outline the lesion region in the image.,1
+Annotate the range of the tumor in the image.,1
+Would you outline the disease area in the image?,1
+Can you identify the affected region in this image?,1
+What is the location of the affected area in the image?,1
+Mark the location of the abnormality.,1
+Label the tumor area in the image.,1
+Outline the affected area in the image.,1
+Identify the lesion site in the image.,1
+Locate the tumor site in the image for me.,1
+Annotate the range of the lesion position in the image.,1
+Find and label the affected area in the image.,1
+Locate the disease site in the image for me.,1
+Label the tumor area in the image.,1
+Please delineate the lesion site in the image.,1
+Can you find the affected area in this image?,1
+Locate the tumor site in the image for me.,1
+Find and label the affected area in the image.,1
+Circle the lesion position in the image.,1
+Highlight the area of the tumor region in the image.,1
+Segment the area of the tumor site in the image.,1
+Where is the lesion region in this image?,1
+Indicate the range of the affected region in the image.,1
+Please assess the patient's treatment effect,2
+What is the prognosis for the patient's recovery process?,2
+Please give a future outlook for the patient's recovery process,2
+Please provide a forecast of the patient's survival analysis,2
+Please give a detailed analysis of the patient's future health condition,2
+Please give a detailed description of the patient's risk of recurrence prognosis,2
+Please give a detailed description of the patient's quality of life prognosis,2
+Please describe the patient's prognosis,2
+Please analyze the patient's survival rate,2
+Please provide the expected outcome for the patient's quality of life,2
+Please provide a forecast of the patient's recovery process,2
+Please analyze the possible outcome of the patient's survival time,2
+Please describe the patient's prognosis,2
+Please provide a prognosis evaluation of the patient's risk of metastasis,2
+Please evaluate the patient's prognosis,2
+Please describe the patient's risk of metastasis,2
+What is the prognosis for the patient's treatment response?,2
+Please evaluate the prognosis of the patient's survival rate,2
+Please give a future outlook for the patient's disease development,2
+Please estimate the patient's disease stability,2
+Please estimate the patient's prognosis,2
+Please give a detailed description of the patient's survival analysis prognosis,2
+Please describe the patient's long-term survival rate,2
+Please evaluate the prognosis of the patient's long-term survival rate,2
+Please conduct a long-term survival rate analysis for the patient,2
+What is the prognosis for the patient's survival rate?,2
+Please analyze the patient's disease development,2
+Please provide the expected outcome for the patient's recovery status,2
+Please analyze the patient's prognosis analysis,2
+Please describe the patient's prognosis,2
+Please provide detailed information about the patient's recovery process,2
+Please provide a prognosis evaluation of the patient's survival rate,2
+Please evaluate the prognosis of the patient's metastasis analysis,2
+Please evaluate the patient's short-term prognosis,2
+Please give a detailed description of the patient's future health condition prognosis,2
+Please describe the patient's prognosis analysis,2
+What is the prognosis for the patient's survival analysis?,2
+Please provide a detailed assessment of the patient's recovery status,2
+Please predict the patient's survival rate,2
+Please assess the patient's disease stability,2
+Please predict the patient's long-term survival rate,2
+Please estimate the patient's survival time,2
+Please analyze the patient's metastasis analysis,2
+Please evaluate the patient's future health condition,2
+Please describe the patient's metastasis analysis,2
+Please describe the patient's recovery process,2
+Please conduct a prognosis analysis for the patient,2
+Please give a detailed analysis of the patient's disease development,2
+Please evaluate the prognosis of the patient's recurrence probability,2
+Please predict the patient's disease development,2
+Please evaluate the patient's survival rate,2
+Please estimate the patient's treatment effect,2
+Please give a future outlook for the patient's disease stability,2
+Please provide the expected outcome for the patient's long-term survival rate,2
+Please conduct a treatment effect analysis for the patient,2
+Please provide the expected outcome for the patient's recovery process,2
+Please provide detailed information about the patient's risk of recurrence,2
+Please analyze the patient's treatment response,2
+Please analyze the possible outcome of the patient's recovery status,2
+Please give a detailed description of the patient's recurrence probability prognosis,2
+What is the prognosis for the patient's long-term survival rate?,2
+Please provide a detailed assessment of the patient's recurrence probability,2
+Please provide a prognosis evaluation of the patient's treatment effect,2
+Please give a detailed analysis of the patient's prognosis analysis,2
+Please predict the patient's risk of recurrence,2
+Please estimate the patient's prognosis,2
+Please analyze the patient's metastasis analysis,2
+Please evaluate the prognosis of the patient's long-term survival rate,2
+Please provide the expected outcome for the patient's quality of life,2
+Please give a detailed analysis of the patient's survival time,2
+What is the prognosis for the patient's survival time?,2
+Please estimate the patient's recovery status,2
+Please evaluate the patient's future health condition,2
+Please describe the patient's risk of recurrence,2
+Please estimate the patient's risk of recurrence,2
+Please provide detailed information about the patient's short-term prognosis,2
+Please provide a detailed assessment of the patient's recovery process,2
+Please provide a prognosis evaluation of the patient's survival rate,2
+Please predict the patient's metastasis analysis,2
+What is the prognosis for the patient's recurrence probability?,2
+What is the prognosis for the patient's prognosis?,2
+Please give a detailed description of the patient's recovery process prognosis,2
+Please evaluate the patient's prognosis,2
+Please predict the patient's treatment effect,2
+Please give a future outlook for the patient's recurrence probability,2
+Please give a detailed description of the patient's short-term prognosis prognosis,2
+Please predict the patient's prognosis analysis,2
+Please predict the patient's risk of metastasis,2
+Please describe the patient's metastasis analysis,2
+Please analyze the possible outcome of the patient's disease development,2
+Please predict the patient's long-term survival rate,2
+Please provide detailed information about the patient's long-term survival rate,2
+What is the prognosis for the patient's treatment response?,2
+Please provide detailed information about the patient's prognosis,2
+Please provide detailed information about the patient's risk of recurrence,2
+Please give a detailed analysis of the patient's risk of recurrence,2
+Please evaluate the patient's metastasis analysis,2
+Please provide a detailed assessment of the patient's recovery process,2
+Please describe the patient's metastasis analysis,2
+Please provide detailed information about the patient's recovery status,2
+What are the white arrows pointing to?,0
+Thank you for the details. It sounds like the image provides a comprehensive view of the tumors.,0
+Are there any other noticeable visual characteristics in the image?,0
+What are the red circles showing?,0
+What are the differences between the three MRI images?,0
+What does a four-part fracture-dislocation mean?,0
+Are there any other observations you would include in the report that could be relevant to the diagnosis?,0
+Could you form a question that a medical professional might ask when reviewing such an image?,0
+What type of cells are shown in the image?,0
+What are the abbreviations mentioned in the caption?,0
+Can you see any signs of the repair?,0
+What is the cause of the pleural effusion?,0
+Can you describe what you see in the image regarding the nasal pharynx?,0
+"If you were to form a diagnostic report based on what you can see in the image, what would that include?",0
+Can you describe what you see in the image?,0
+What would you include in a diagnostic report based on this image?,0
+How do the bottom three images differ from the top row?,0
+Where are the images adopted from?,0
+What is the trend observed in the image?,0
+What would you include in a diagnostic report based on the image alone?,0
+What does the bar graph represent?,0
+How does the swelling appear compared to the surrounding area?,0
+How does the color of the mucosa in that area compare to the surrounding tissue?,0
+What can diffusion-weighted MRI be used for?,0
+How can you tell that the cell nest sizes vary in the sections 'c' through 'e'?,0
+"Considering the diagnosis type that was provided as nasopharyngeal cancer, what would be an appropriate way to approach the reporting of this image?",0
+What are the giant cells?,0
+What is the purpose of the birdcage coil?,0
+What organ is shown in the image?,0
+What can you tell about the chest X-ray?,0
+What are the measurements mentioned in the caption?,0
+What is the image showing?,0
+How do the PET and CT scans differ visually in terms of what they show?,0
+What are the representative images of H&E staining showing?,0
+What is the next imaging survey if a renal solid mass is found?,0
+What does the melanoma look like?,0
+What is the main focus of the image?,0
+What type of fracture is shown in the image?,0
+What does the biofilm look like?,0
+Can you describe what you see in the image with respect to the right side of the nasopharynx?,0
+What would you focus on if you were preparing a diagnostic report based on this image?,0
+What is subcutaneous emphysema?,0
+What happened to the patient after October 2018?,0
+Can you describe what you see in the image?,0
+What is the main finding in the upper lobes?,0
+What type of imaging technique is used?,0
+How does the color of the tissue in that area compare to the surrounding tissue?,0
+"If you were to summarize your observations into a diagnostic report, what would that entail?",0
+What is the main finding in the image?,0
+What is the purpose of converting the images to black and white?,0
+Is it a tumor?,0
+Can you describe what you see in the image?,0
+Are there any notable structures or irregularities that you can discern in the depicted area?,0
+What does the yellowish secretion suggest to you?,0
+What are the foraminal stenoses?,0
+What can you say about the mesentery?,0
+What are the notable features of the mass shown in the image?,0
+"And in the second image, how do you think the biopsy was guided, based on what you can see in the image?",0
+What is the shape of the right hippocampus?,0
+Is there any abnormality in the liver?,0
+"In terms of the diagnosis provided, which is nasopharyngeal carcinoma, what might that suggest in the context of the image?",0
+Is there anything else you can observe about the right side that might be relevant?,0
+What part of the body is shown in the image?,0
+How about the overall appearance of the area that is visualized in the image?,0
+I notice that the breast tissue is visible in both images. Is there anything in the image that suggests why we can see the breast tissue during an abdominal MRI?,0
+What was the outcome of the surgery?,0
+What is the purpose of the chemotherapy?,0
+What is the arrowhead pointing to?,0
+How about the color and texture of the area being examined?,0
+Are there any other notable observations regarding the area with the secretions?,0
+How important is it to examine the entire nasopharyngeal area in cases like this?,0
+"Based on what you've discussed, how would you summarize the findings for a diagnostic report?",0
+What changes are observed in the treated kidney tissue?,0
+"In terms of forming a diagnostic impression based on the visual aspects you've described, what would you consider?",0
+What can you infer from the plot?,0
+What type of images are shown?,0
+And what about the right panel? What stands out to you there?,0
+"Based on the visual aspects, what might be a concern?",0
+Are there any other observations you can share about the image?,0
+What are the signs of infection in the gills?,0
+Which part of the spine is shown?,0
+What is the healed cystotomy site marked with?,0
+What is the terminal ileum?,0
+Is there any sign of additional bleeding?,0
+"In your professional opinion, what kind of diagnostic report could be formed based on this image?",0
+What about the left side and the roof and posterior wall?,0
+What types of tissues are shown in the image?,0
+What does the red arrow indicate?,0
+What do the asterisks indicate?,0
+What is the difference between the staining in panels A and B?,0
+What parameters are being evaluated in the image?,0
+"The doctor said it was smooth and soft to the touch, and it moved when I swallowed.",0
+How does the contrast-enhanced CT scan provide additional information compared to the scout views?,0
+What is the lesion affecting?,0
+What do the blue arrows point to?,0
+Are there any structural features that stand out or seem noteworthy in the image?,0
+What does the chest X-ray show?,0
+What was the initial thought about the opacification?,0
+What is the purpose of this figure?,0
+How does the tissue appear in the area of the adhesion?,0
+What can you infer about the performance of the two methods?,0
+Is there anything else notable about the image that might be relevant to the observation?,0
+What is the main finding in the image?,0
+How does the tissue appear in terms of color and texture?,0
+What body parts are shown in the image?,0
+Can you describe the different structures that are highlighted in the image?,0
+What type of MRI image is shown?,0
+Where is the tumor located?,0
+Can you describe what you see in the image of the nasopharynx?,0
+How does the image that shows the endoscopy with narrow band imaging look?,0
+How about the color and texture of the tissue that you can see in the image?,0
+How many different imaging techniques or visual representations are there in the image?,0
+How about the other areas? Are there any notable observations?,0
+"Yes, let's concentrate on the right side. What do you notice there?",0
+What is the purpose of the fused preoperative MRI and postoperative CT?,0
+What do the arrows indicate?,0
+What pattern is visible in the chest X-ray?,0
+What is the main finding in the image?,0
+Are there any structural irregularities or lesions that you can observe?,0
+What is the difference between virtual LLR and real LLR?,0
+How does the lesion's presence affect the surrounding structures in the image?,0
+What is the trend observed in the mice treated with DMBA?,0
+What is the cause of this hernia?,0
+What is the significance of measuring the distance between the right and left greater palatine foramina?,0
+"Based on the visual aspects you've described, how would you summarize the findings for a diagnostic report?",0
+What is the image showing?,0
+How would you characterize the tissue in the area that is not covered by secretions?,0
+"How many masses are visible in the image, and where are they located?",0
+What would you focus on if you were to form a diagnostic report based on this visual aspect?,0
+Can you describe what you see in the image?,0
+Are there any specific imaging techniques used that stand out in the image?,0
+What is the view of the image?,0
+What is the significance of vascular sheathing?,0
+What is the main focus of the image?,0
+What imaging technique is mentioned?,0
+Can you describe what you see in the image?,0
+Could you form a diagnostic impression based on what you see in the image?,0
+What kind of protective equipment is used in the COVID-19 protocol?,0
+"Based on the information provided, what kind of diagnostic report might be formed?",0
+What is the purpose of the plot box?,0
+What do the ROC curves represent?,0
+Where is the calcification located?,0
+What would be some possible implications of the observed changes?,0
+What is the arrow pointing to?,0
+"Based on the image and the knowledge of the diagnosis being nasopharyngeal cancer, what would you consider as important to include in a diagnostic report?",0
+What type of grafts were transplanted onto the mice?,0
+Can you describe what you see in the image of the nasopharynx?,0
+What is the location of the nodes?,0
+Are there any visible abnormalities in the lungs?,0
+How does the swelling appear? Is it uniform or patchy?,0
+What is the arrangement of the cells?,0
+What is the TEP?,0
+What are the colors representing in the architecture?,0
+What does the CT scan show after the operation?,0
+What is the main change in the chest x-ray after chemotherapy?,0
+What is the purpose of the management algorithm?,0
+How would you describe the color of the mucosa in that area?,0
+Can you describe what kind of medical imaging technique is being used in this image?,0
+What is hilar prominence?,0
+Are there any other visual aspects of the image that you find notable?,0
+Can you describe what you see in the image?,0
+Are there any other observations you can share about the image?,0
+"In forming a diagnostic report based on this information, what would you consider highlighting?",0
+How do the different signals relate to each other in terms of SARS-CoV-2 infection?,0
+"What about the adenoids, can you see any transformation in them over the course of the images?",0
+"Considering the diagnosis type provided, which is nasopharyngeal cancer, how might this image be relevant?",0
+What characteristics of the lesion can be observed in the grayscale ultrasound image?,0
+What type of scan is shown in the image?,0
+What is the main feature of the histopathological section?,0
+How would you describe the texture of the nasal mucosa that is shown?,0
+What is the main finding in the CT image?,0
+What is the final outcome of this analysis?,0
+How would you describe the positioning of the mass in relation to the pituitary gland in image A?,0
+What type of tumors are shown in the image?,0
+Are there any abnormalities in the lungs?,0
+Is this image taken after a surgery?,0
+What does the bar graph represent?,0
+"Given the diagnosis type of nasopharyngeal carcinoma, what would be your approach to formulating a diagnostic report based on this image?",0
+What organ is missing in the image?,0
+What type of imaging is used in this example?,0
+What are the components labeled as RF and 3D in the image?,0
+What is the patient's presenting symptom?,0
+How does the PET scan add to the understanding of the lesions shown in the image?,0
+"Based on the visual information in the image, how might one approach forming a diagnostic impression?",0
+"If you were to form a diagnostic report based on the image, what would be the key points to include?",0
+What is the appearance of the polypoid lesion?,0
+What does exophytic mean?,0
+Is there any sign of remaining lesion?,0
+What type of MRI images are shown in the figure?,0
+Can you tell me what you observe in the image?,0
+What type of stain is used?,0
+What is the appearance of the normal adrenal gland in the image?,0
+Are there any other visual aspects in the image that might be relevant to note?,0
+Where is the lesion located?,0
+Can you describe what you see in the image as it relates to the left side of the nasopharynx?,0
+What part of the body is shown in the image?,0
+"Unfortunately, no other features were mentioned other than what I told you about the right side.",0
+What is the main purpose of the imaging techniques shown in the image?,0
+Are there any structural irregularities or abnormalities that you can identify?,0
+What does the chest x-ray show?,0
+Can you describe the main feature shown in this image?,0
+What do the arrows indicate?,0
+How would you summarize the findings for a diagnostic report based on the information given?,0
+What additional aspects should be considered in the diagnostic report based on what you see in the image?,0
+What is the main focus of the image?,0
+Can you describe what you see in the image?,0
+What is the location of the bony lesion?,0
+What does the chest X-ray show?,0
+What is the purpose of fusing MRI and CT images?,0
+What kind of characteristics should I be noting about this mass?,0
+Can you describe the different structures visible in the image?,0
+What can you tell about the child's lungs?,0
+"Given the findings, how might this information be relevant to the diagnosis that was provided?",0
+How would you conclude the visual assessment part of the diagnostic report based on what you've observed in the image?,0
+"Given the diagnosis type provided, are there any visual aspects in the image that might correlate with that diagnosis?",0
+What visual differences do you notice between the images labeled as complete response versus those labeled as partial response?,0
+Are there any other notable visual aspects in the area that was mentioned?,0
+What type of MRI sequence is used in this image?,0
+Is there a significant difference between small spotty calcifications and non-calcified plaques in terms of TCFA percentage?,0
+Are there any particular features that stand out or seem noteworthy?,0
+What is the significance of the bilateral basilar atelectasis?,0
+What does the high T2 signal indicate?,0
+"How about the left side, is there anything noteworthy?",0
+What could be the cause of subcutaneous emphysema?,0
+"How about the sides, did you notice anything on the left or right?",0
+What kind of procedure seems to be depicted in panels j-k?,0
+Are there any visible structural changes or irregularities in the image?,0
+What are some reasons for exclusion from the trial?,0
+What is the silhouette sign?,0
+What does an attenuating mass mean?,0
+Are there any other visual aspects in the image that could be relevant to the swelling?,0
+"How about the overall appearance of the nasopharynx, does anything stand out that might be indicative of a certain condition?",0
+How would you characterize the color and texture of the mucosa that you see in the image?,0
+"Yes, I'm interested in the differences between the two tumor types in terms of their signal intensities on the MRI.",0
+What is a loculated pleural effusion?,0
+"Given the diagnosis type provided, which is nasopharyngeal carcinoma, what would be an appropriate approach to reporting what is seen in the image?",0
+Are there any visible abnormalities or structures that stand out?,0
+Can you tell me what the main difference is between image A and image B?,0
+What organ is affected in the image?,0
+What could these cyst-like bone lesions indicate?,0
+Are there any other arrows indicating specific findings or lesions in the image?,0
+"How do the magnifications differ between the panels, and what does this show?",0
+Can you describe what you see in the image?,0
+How does the appearance of the affected area compare to the surrounding tissue?,0
+What treatment was given?,0
+What are the two methods being compared?,0
+What is the main focus of the image?,0
+Can you describe what you see in the image of the nasopharynx?,0
+"Based on the visual observation of the atrophy of the tubal torus, what could be a potential concern?",0
+Are there any particular features in the images that stand out as being asymmetric or unusual?,0
+"If you were to summarize your observations into a diagnostic report, what would that entail?",0
+What can you say about the axial view?,0
+Are there any growths or masses visible in the image?,0
+What is the purpose of this image?,0
+What is the size of the mass?,0
+Are there any other notable visual aspects in the affected area?,0
+Can you describe what you see in the image?,0
+Is there any sign of lung infection?,0
+How does the heart size look?,0
+What is the coloration of the mass and the surrounding tissue?,0
+What kind of tissue could it be?,0
+What procedure was performed?,0
+What is the main focus of the figure?,0
+Can you describe what you see in the image?,0
+"Is there anything in the image that could be indicative of the diagnosed condition, which is nasopharyngeal cancer?",0
+"Considering the diagnosis type provided is nasopharyngeal carcinoma, what would be your cautious approach in forming a diagnostic report based solely on the provided information?",0
+"In terms of the overall appearance of the nasopharyngeal area shown, would you say it looks healthy?",0
+What is the main focus of the image?,0
+What is the age range of the children in the image?,0
+What are the experimental groups?,0
+Can you describe what you see in the image regarding the left side of the nasopharynx?,0
+What are the signs of pneumonia in the chest X-ray?,0
+What is the primary cancer in the image?,0
+"I had a nasopharyngoscopy and the doctor provided a brief description of what they saw. They mentioned something about the left side, top, and back walls. Can you tell me what visual aspects of the image I should focus on?",0
+Can you describe what you see in the image?,0
+What is the main finding in the chest X-ray?,0
+Can you describe the appearance of the pulmonary congestion in the X-rays?,0
+What is the main topic of the flow diagram?,0
+What are the measurements presented in?,0
+What type of image is this?,0
+How does the tissue in the nasopharynx look?,0
+Are there any other visual cues in the image that might be relevant to the diagnosis?,0
+Can you describe what you see in the image?,0
+What are the blue arrows pointing to?,0
+What is the main finding in the liver?,0
+What does the increased tracer uptake indicate?,0
+Can you describe what you see in the image?,0
+Can you describe what you see in the image?,0
+What does it mean when a lung lobe is completely expanded?,0
+What are the two images being compared?,0
+What is vasa previa?,0
+What is the staining method used?,0
+What about the overall appearance of the nasopharyngeal cavity?,0
+What does the arrowhead indicate?,0
+How would you describe the overall appearance of the area in the image?,0
+Can you describe the general layout of the images shown?,0
+What type of imaging technique was used?,0
+What is the treatment mentioned?,0
+How long after the procedure was the CT scan taken?,0
+Are there any other visual aspects that stand out in the image?,0
