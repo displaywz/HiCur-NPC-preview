@@ -47,8 +47,3 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Contact
 
 For any questions or inquiries, please contact us at wangzipei23@ia.ac.cn.
-
----
-
-Feel free to customize this README further based on your specific needs and preferences.
->>>>>>>>> Temporary merge branch 2
