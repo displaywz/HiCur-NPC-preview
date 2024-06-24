@@ -1,5 +1,7 @@
 # HiCur-NPC: Hierarchical Feature Fusion Curriculum Learning for Multi-Modal Foundation Model in Nasopharyngeal Carcinoma
-
+<p align="center">
+    <img src="images/cartoon.png" width="50%"> <br>
+</p>
 Providing precise and comprehensive diagnostic information to clinicians is crucial for improving the treatment and prognosis of nasopharyngeal carcinoma. Multi-modal foundation models, which can integrate data from various sources, have the potential to significantly enhance clinical assistance. However, several challenges remain:
 
 1. The lack of large-scale visual-language datasets for nasopharyngeal carcinoma.
@@ -13,7 +15,7 @@ While curriculum learning can improve a model's ability to handle multiple tasks
 3. **Fine-Grained Fusion (Stage III)**: We design a Mixture of Experts Cross Attention (MECA) structure for deep fine-grained fusion of global multimodal information.
 
 Our model outperforms previously developed specialized models in all key clinical tasks for nasopharyngeal carcinoma, including diagnosis, report generation, tumor segmentation, and prognosis.
-
+![HiCur](images/HiCur.png)
 ## Repository Structure
 
 - `StageI-HCMAE`: Contains code and resources for visual knowledge learning using the Hybrid Contrastive Masked Autoencoder.
@@ -47,8 +49,3 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Contact
 
 For any questions or inquiries, please contact us at wangzipei23@ia.ac.cn.
-
----
-
-Feel free to customize this README further based on your specific needs and preferences.
->>>>>>>>> Temporary merge branch 2
