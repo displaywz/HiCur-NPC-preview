@@ -44,7 +44,7 @@ We welcome contributions from the community. Please fork the repository and subm
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the Apache License. See the LICENSE file for more details.
 
 ## Contact
 
