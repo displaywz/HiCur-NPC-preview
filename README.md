@@ -11,8 +11,8 @@ Providing precise and comprehensive diagnostic information to clinicians is cruc
 While curriculum learning can improve a model's ability to handle multiple tasks through systematic knowledge accumulation, it still lacks consideration for hierarchical features and their dependencies, affecting knowledge gains. To address these issues, we propose the Hierarchical Feature Fusion Curriculum Learning (HFFCL) method, which consists of three stages:
 
 1. **Visual Knowledge Learning (Stage I)**: We introduce the Hybrid Contrastive Masked Autoencoder (HCMAE) to pre-train visual encoders on 755K multi-modal images of nasopharyngeal carcinoma CT, MRI, and endoscopy to fully extract deep visual information.
-2. **Coarse-Grained Alignment (Stage II)**: We construct a 65K visual instruction fine-tuning dataset based on open-source data and clinician diagnostic reports, achieving coarse-grained alignment with visual information in a large language model (CGA).
-3. **Fine-Grained Fusion (Stage III)**: We design a Mixture of Experts Cross Attention (MECA) structure for deep fine-grained fusion of global multimodal information.
+2. **Coarse-Grained Alignment (Stage II)**: We construct a 65K visual instruction fine-tuning dataset based on open-source data and clinician diagnostic reports, achieving coarse-grained alignment with visual information in a large language model.
+3. **Fine-Grained Fusion (Stage III)**: We design a Mixture of Experts Cross Attention structure for deep fine-grained fusion of global multimodal information.
 
 Our model outperforms previously developed specialized models in all key clinical tasks for nasopharyngeal carcinoma, including diagnosis, report generation, tumor segmentation, and prognosis.
 ![HiCur](images/HiCur.png)
