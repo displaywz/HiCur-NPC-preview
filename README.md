@@ -48,4 +48,4 @@ This project is licensed under the Apache License. See the LICENSE file for more
 
 ## Contact
 
-For any questions or inquiries, please contact us at wangzipei23@ia.ac.cn.
+For any questions or inquiries, please contact us at wangzipei2023@ia.ac.cn.
