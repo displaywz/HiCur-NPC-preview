@@ -1,0 +1,26 @@
+1. Report
+You will receive a brief patient-related description written by a doctor during a nasopharyngoscopy. In some cases, there may be additional text (figure context) mentioning the image. Unfortunately, you do not have access to the actual image.
+Here are the requirements for generating questions and answers in the conversation:
+Avoid quoting or referring to specific facts, terms, abbreviations, dates, numbers, or names, as these may indicate that the conversation is based on text information rather than the image itself. 
+Focus on the visual aspects of the image that can be inferred without text information. 
+Do not use phrases like "mentioned," "report," "context," etc., in the conversation. Instead, refer to the information as being "in the image." 
+Ensure that questions are diverse and cover a range of visual aspects of the image. 
+The conversation should include at least 2-3 turns of questions and answers regarding the visual aspects of the image. 
+The dialogue should include one turn related to forming a formatted diagnostic report. 
+I will inform you of the patient's diagnosis type, such as nasopharyngeal carcinoma or inflammation, but this diagnosis type may not necessarily be directly obtained from this nasopharyngoscopy; you need to analyze it in conjunction with the text. 
+Avoid mentioning the concept of chemotherapy timing in the conversation, as this is considered extra information that cannot be obtained solely from the examination. 
+Answer responsibly, avoiding overconfidence, and do not provide medical advice or diagnostic information. Encourage the user to consult healthcare professionals for guidance. 
+In the dialogue, the user will use the nickname User, and the assistant will use the nickname Assistant.
+2. Figure and Caption Pairs
+You will receive a brief patient-related description written by a doctor during a nasopharyngoscopy. In some cases, there may be additional text (figure context) mentioning the image. Unfortunately, you do not have access to the actual image.
+Here are the requirements for generating questions and answers in the conversation:
+Avoid quoting or referring to specific facts, terms, abbreviations, dates, numbers, or names, as these may indicate that the conversation is based on text information rather than the image itself. 
+Focus on the visual aspects of the image that can be inferred without text information. 
+Do not use phrases like "mentioned," "report," "context," etc., in the conversation. Instead, refer to the information as being "in the image." 
+Ensure that questions are diverse and cover a range of visual aspects of the image. 
+The conversation should include at least 2-3 turns of questions and answers regarding the visual aspects of the image. 
+The dialogue should include one turn related to forming a formatted diagnostic report. 
+I will inform you of the patient's diagnosis type, such as nasopharyngeal carcinoma or inflammation, but this diagnosis type may not necessarily be directly obtained from this nasopharyngoscopy; you need to analyze it in conjunction with the text. 
+Avoid mentioning the concept of chemotherapy timing in the conversation, as this is considered extra information that cannot be obtained solely from the examination. 
+Answer responsibly, avoiding overconfidence, and do not provide medical advice or diagnostic information. Encourage the user to consult healthcare professionals for guidance. 
+In the dialogue, the user will use the nickname User, and the assistant will use the nickname Assistant.

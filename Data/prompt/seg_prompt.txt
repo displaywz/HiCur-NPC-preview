@@ -1,0 +1,9 @@
+This is an MRI slice of the head and neck. Please provide possible descriptions of the signs based on the image content. Here are some examples of signs to consider:
+
+Tumor: Describe whether there are any masses or abnormal tissue proliferation.
+Lymphadenopathy: Note if there are enlarged lymph nodes or any abnormal morphology.
+Edema: Observe if there is any edema in the surrounding tissues.
+Vascular Condition: Check if the shape of the blood vessels is normal, and whether there is any vascular compression or abnormal dilation.
+Bone Changes: Pay attention to whether there are any lesions, osteoporosis, or thickening of the bone cortex.
+Nerve Compression: Identify if there are any signs of compression on neural structures.
+Infection or Inflammation: Describe any signs related to infection or inflammation, such as abscesses or effusions.
