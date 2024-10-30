@@ -13,9 +13,7 @@
 
 📽️ **Demonstration Video**: Check out our demonstration video to see the HiCur-NPC model in action! This video showcases the model's capabilities and how it processes nasopharyngeal carcinoma data.
 
-<div align="center">
-    <video src="./images/HiCur-with-CC.mp4" width="800" controls></video>
-</div>
+https://github.com/user-attachments/assets/b986a710-bd54-4b90-8bf1-be2c8f9766cb
 
 ---
 
