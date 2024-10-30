@@ -7,7 +7,7 @@
 
 🎉 **October 29**: Updated the complete data collection and organization process, providing detailed download and usage plans for our dataset! 📊 For more information, check out the [Data Update Documentation](./Data/README.md).
 
-🎥 **October 30**: Added a video demo showcasing model inference, helping users better understand the application of our model in real-world scenarios! 
+🎥 **October 30**: Added a video demo showcasing model inference. 
 
 ## Demo
 
