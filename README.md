@@ -2,6 +2,26 @@
 <p align="center">
     <img src="images/cartoon.png" width="50%"> <br>
 </p>
+
+## News
+
+🎉 **October 29**: Updated the complete data collection and organization process, providing detailed download and usage plans for our dataset! 📊 For more information, check out the [Data Update Documentation](./Data/README.md).
+
+🎥 **October 30**: Added a video demo showcasing model inference, helping users better understand the application of our model in real-world scenarios! 
+
+## Demo
+
+📽️ **Demonstration Video**: Check out our demonstration video to see the HiCur-NPC model in action! This video showcases the model's capabilities and how it processes nasopharyngeal carcinoma data.
+
+<p align="center">
+    <video width="100%" controls>
+        <source src="images/HiCur-with-CC.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</p>
+
+---
+
 Providing precise and comprehensive diagnostic information to clinicians is crucial for improving the treatment and prognosis of nasopharyngeal carcinoma. Multi-modal foundation models, which can integrate data from various sources, have the potential to significantly enhance clinical assistance. However, several challenges remain:
 
 1. The lack of large-scale visual-language datasets for nasopharyngeal carcinoma.
