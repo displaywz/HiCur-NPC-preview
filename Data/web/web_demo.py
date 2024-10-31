@@ -1,34 +1,34 @@
 import pandas as pd
 import gradio as gr
 
-# 创建一个用户的全局变量
+# Create a global variable for the user
 current_user = None
 
-# 定义所有医生/模型选项
+# Define all doctor/model options
 all_doctors = ['A', 'B', 'C', 'D', 'E', 'F']
 
-# 定义加载用户CSV文件的函数
+# Define a function to load the user's CSV file
 def load_user_data(user_id):
     global df, ids
     
-    # 构造用户的CSV文件路径
+    # Construct the file path for the user's CSV
     file_path = f'./hicur/{user_id}_patients_data.csv'
     
-    # 读取用户的CSV文件，如果不存在则返回False
+    # Read the user's CSV file; if it doesn't exist, return False
     try:
         df = pd.read_csv(file_path)
-        ids = df['id'].tolist()  # 获取所有患者的id
-        return True  # 文件存在并且加载成功
+        ids = df['id'].tolist()  # Get all patient IDs
+        return True  # File exists and loads successfully
     except FileNotFoundError:
-        return False  # 文件不存在
+        return False  # File does not exist
 
-# 获取患者数据并更新界面
+# Retrieve patient data and update the interface
 def update_patient_data(selected_id, doctor):
     row = df[df['id'] == selected_id].iloc[0]
     clinical_record = row['clinical_record']
     img_file = row['imgfile']
     
-    # 根据选中的医生/模型更新诊疗方案和评分
+    # Update treatment plan and scores based on the selected doctor/model
     treatment_plan = row[f'treatment_plan_{doctor}']
     accuracy = row[f'accuracy_{doctor}'] if not pd.isna(row[f'accuracy_{doctor}']) else 0
     completeness = row[f'completeness_{doctor}'] if not pd.isna(row[f'completeness_{doctor}']) else 0
@@ -38,7 +38,7 @@ def update_patient_data(selected_id, doctor):
     return (clinical_record, treatment_plan, accuracy, completeness, reliability, safety, 
             img_file, selected_id, gr.update(value=doctor))
 
-# 保存评分并更新CSV文件
+# Save scores and update the CSV file
 def save_scores(selected_id, accuracy, completeness, reliability, safety, doctor):
     df.loc[df['id'] == selected_id, [f'accuracy_{doctor}', f'completeness_{doctor}', f'reliability_{doctor}', f'safety_{doctor}']] = [
         accuracy, completeness, reliability, safety
@@ -47,9 +47,9 @@ def save_scores(selected_id, accuracy, completeness, reliability, safety, doctor
     file_path = f'./hicur/{current_user}_patients_data.csv'
     df.to_csv(file_path, index=False)
     
-    return "打分保存成功！"
+    return "Score saved successfully!"
 
-# 获取前一个未评分的患者ID和医生
+# Get the previous unscored patient ID and doctor
 def get_previous_unscored(current_id):
     current_index = ids.index(current_id)
     for i in range(current_index - 1, -1, -1):
@@ -57,15 +57,15 @@ def get_previous_unscored(current_id):
         unscored_doctor = get_next_unscored_doctor(patient_id)
         if unscored_doctor is not None:
             return patient_id, unscored_doctor
-    # 如果没有找到，从最后一个开始搜索
+    # If none is found, start searching from the last entry
     for i in range(len(ids) - 1, current_index, -1):
         patient_id = ids[i]
         unscored_doctor = get_next_unscored_doctor(patient_id)
         if unscored_doctor is not None:
             return patient_id, unscored_doctor
-    return ids[0], all_doctors[0]  # 如果所有都已评分，返回第一个患者和医生A
+    return ids[0], all_doctors[0]  # If all are scored, return the first patient and Doctor A
 
-# 获取下一个未评分的患者ID和医生
+# Get the next unscored patient ID and doctor
 def get_next_unscored(current_id):
     current_index = ids.index(current_id)
     for i in range(current_index, len(ids)):
@@ -73,52 +73,52 @@ def get_next_unscored(current_id):
         unscored_doctor = get_next_unscored_doctor(patient_id)
         if unscored_doctor is not None:
             return patient_id, unscored_doctor
-    # 如果没有找到，从开头开始搜索
+    # If none is found, start searching from the beginning
     for i in range(0, current_index):
         patient_id = ids[i]
         unscored_doctor = get_next_unscored_doctor(patient_id)
         if unscored_doctor is not None:
             return patient_id, unscored_doctor
-    return ids[0], all_doctors[0]  # 如果所有都已评分，返回第一个患者和医生A
+    return ids[0], all_doctors[0]  # If all are scored, return the first patient and Doctor A
 
 def login_user(user_id):
     global current_user
-    if load_user_data(user_id):  # 如果用户文件存在
+    if load_user_data(user_id):  # If the user file exists
         current_user = user_id
         
-        # 查找第一个包含未评分的记录，从索引0开始
+        # Find the first unscored record from index 0
         first_unscored_id, first_unscored_doctor = get_next_unscored(ids[0])
         
-        return (gr.update(value=user_id),  # 清除错误信息
-                gr.update(choices=ids),  # 更新ID列表
-                *update_patient_data(first_unscored_id, first_unscored_doctor))  # 加载未评分的患者数据
+        return (gr.update(value=user_id),  # Clear error message
+                gr.update(choices=ids),  # Update ID list
+                *update_patient_data(first_unscored_id, first_unscored_doctor))  # Load unscored patient data
     else:
-        # 用户不存在时，返回错误提示
-        return (gr.update(value="用户不存在", visible=True), 
-                gr.update(choices=[]),  # 清空ID列表
-                "", "", 0, 0, 0, 0, "", None, gr.update(value=all_doctors[0]))  # 清空其他字段
+        # Return an error message if the user does not exist
+        return (gr.update(value="User does not exist", visible=True), 
+                gr.update(choices=[]),  # Clear ID list
+                "", "", 0, 0, 0, 0, "", None, gr.update(value=all_doctors[0]))  # Clear other fields
 
 def get_next_unscored_doctor(patient_id):
     for doctor in all_doctors:
         if df.loc[df['id'] == patient_id, [f'accuracy_{doctor}', f'completeness_{doctor}', f'reliability_{doctor}', f'safety_{doctor}']].sum().sum() == 0:
             return doctor
-    return None  # 如果所有医生都已评分，返回None
+    return None  # Return None if all doctors are scored
 
-# Gradio界面
+# Gradio Interface
 with gr.Blocks() as demo:
     with gr.Row():
         with gr.Column(scale=1):
-            # 用户登录框
+            # User login box
             user_id_input = gr.Textbox(label="Enter user ID to log in")
             login_button = gr.Button("Log in")
 
-            # ID选择栏，显示所有ID
+            # ID selection field, displaying all IDs
             id_list = gr.Dropdown(choices=[], label="Select patient ID")
 
             previous_button = gr.Button("Previous")
             next_button = gr.Button("Next")
 
-            # 更新医生/模型单选框
+            # Update doctor/model radio button
             doctor_selection = gr.Radio(choices=all_doctors, label="Select doctor/model", value=all_doctors[0])
 
         with gr.Column(scale=3):
@@ -135,7 +135,7 @@ with gr.Blocks() as demo:
             submit_button = gr.Button("Submit Score")
             score_output = gr.Textbox(label="Scoring Result", lines=2)
     
-    # 用户登录后，加载相应的数据和ID列表
+    # Load relevant data and ID list after user login
     login_button.click(
         login_user,
         inputs=[user_id_input],
@@ -144,7 +144,7 @@ with gr.Blocks() as demo:
                  patient_image, id_list, doctor_selection]
     )
     
-    # ID选择后的数据更新
+    # Update data after ID selection
     id_list.change(
         lambda selected_id: update_patient_data(selected_id, get_next_unscored_doctor(selected_id) or all_doctors[0]),
         inputs=[id_list], 
@@ -153,7 +153,7 @@ with gr.Blocks() as demo:
                  patient_image, id_list, doctor_selection]
     )
     
-    # 当选择不同医生/模型时更新诊疗方案和评分
+    # Update treatment plan and scores when selecting a different doctor/model
     doctor_selection.change(
         lambda doctor, selected_id: update_patient_data(selected_id, doctor),
         inputs=[doctor_selection, id_list],
@@ -162,14 +162,14 @@ with gr.Blocks() as demo:
                  patient_image, id_list, doctor_selection]
     )
     
-    # 提交打分动作
+    # Submit scoring action
     submit_button.click(
         lambda selected_id, accuracy, completeness, reliability, safety, doctor: save_scores(selected_id, accuracy, completeness, reliability, safety, doctor), 
         inputs=[id_list, accuracy, completeness, reliability, safety, doctor_selection], 
         outputs=score_output
     )
     
-    # 上一个按钮的操作
+    # Action for the previous button
     previous_button.click(
         lambda x: update_patient_data(*get_previous_unscored(x)),
         inputs=[id_list],
@@ -178,7 +178,7 @@ with gr.Blocks() as demo:
                  patient_image, id_list, doctor_selection]
     )
     
-    # 下一个按钮的操作
+    # Action for the next button
     next_button.click(
         lambda x: update_patient_data(*get_next_unscored(x)),
         inputs=[id_list],
@@ -187,5 +187,5 @@ with gr.Blocks() as demo:
                  patient_image, id_list, doctor_selection]
     )
 
-# 启动 Gradio
+# Launch Gradio
 demo.launch()
