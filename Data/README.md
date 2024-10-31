@@ -219,10 +219,10 @@ Example Table for Prognosis (Note: The data is randomly generated and does not c
 
 ## Data Access Links
 
-We provide part of our de-identified test data, approved by the ethics committee, on our official website and the open-source community Hugging Face to support further research in related fields. You can access the data through the following links:
+We provide part of our de-identified test data, approved by the ethics committee, on our official website to support further research in related fields. You can access the data through the following links:
 
-- CASMI Official Website: [Radiomics Platform](http://www.radiomics.net.cn/platform.html)
-- Hugging Face: [Radiomics/NPC Dataset](https://huggingface.co/datasets/Radiomics/NPC)
+- CASMI Official Website: [Radiomics Platform](http://www.radiomics.net.cn/post/143)
+- Hugging Face: [Radiomics/NPC Dataset](https://huggingface.co/datasets/Radiomics/NPC) (Coming Soon)
 
 ## Data Usage Agreement
 
