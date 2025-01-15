@@ -9,6 +9,8 @@
 
 🎥 **October 30**: Added a video demo showcasing model inference. 
 
+🚀 **January 5**: Updated the method for quickly migrating HiCur-NPC to other data tasks. Using CXR data as an example, we developed [HiCur-CXR](./HiCur-CXR/README.md). 
+
 ## Demo
 
 📽️ **Demonstration Video**: Check out our demonstration video to see the HiCur-NPC model in action! This video showcases the model's capabilities and how it processes nasopharyngeal carcinoma data.
